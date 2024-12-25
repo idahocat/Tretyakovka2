@@ -6,7 +6,7 @@ let firstSearch = "Пушкин";
 let secondSearch = "Италия";
 
 
-test("Search", async ({ page }) => {
+test("Search ", async ({ page }) => {
   let app = new App(page);
   
   await app.mainPage.open(url);
